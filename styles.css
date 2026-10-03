@@ -247,7 +247,8 @@ img {
   align-items: start;
 }
 
-.ig-grid--three {
+.ig-grid--three,
+.ig-grid--videos {
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -426,6 +427,7 @@ img {
 
   .ig-grid,
   .ig-grid--three,
+  .ig-grid--videos,
   .about__grid {
     grid-template-columns: 1fr;
   }
